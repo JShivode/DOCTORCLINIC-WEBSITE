@@ -1,6 +1,6 @@
 # DocOnCall - Healthcare Website
 
-![DocOnCall Logo](assets/images/logo.png)
+![DocOnCall Logo](assets/logo.png)
 
 
 ## Overview
