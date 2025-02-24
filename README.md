@@ -1,6 +1,6 @@
 # DocOnCall - Healthcare Website
 
-![DocOnCall Logo](logo.png)
+![DocOnCall Logo](![logo](https://github.com/user-attachments/assets/755b69d9-6f3c-4535-bc46-70d755abe1da))
 
 ## Overview
 **DocOnCall** is a healthcare web platform designed to provide medical consultation and appointment scheduling services. The project includes a user-friendly interface, seamless navigation, and integration with various medical data sources.
@@ -96,5 +96,5 @@ This project is licensed under the **MIT License**.
 
 ---
 ### Contact
-For inquiries and collaboration, reach out via **[your-email@example.com](mailto:your-email@example.com)**.
+For inquiries and collaboration, reach out via ....
 
