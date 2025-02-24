@@ -11,7 +11,7 @@ const Navbars = ()=>{
             <img src={logo} title="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav"> 
             <Nav className="me-auto">
               <Nav.Link className="active">Home</Nav.Link>
               <NavDropdown title="Pages" id="basic-nav-dropdown">
