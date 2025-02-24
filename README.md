@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# DocOnCall - Healthcare Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![DocOnCall Logo](Assets/logo.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Overview
+**DocOnCall** is a healthcare web platform designed to provide medical consultation and appointment scheduling services. The project includes a user-friendly interface, seamless navigation, and integration with various medical data sources.
 
-### `npm start`
+## Features
+- **User Registration & Authentication**
+- **Doctor Profiles & Listings**
+- **Appointment Booking System**
+- **Medical Consultation via Chat & Video**
+- **Prescription & Medical Records Management**
+- **Admin Dashboard for Management**
+- **Mobile Responsive Design**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- **Frontend:** React.js, HTML, CSS, JavaScript
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Styling:** CSS Modules
+- **Deployment:** GitHub, Vercel/Heroku
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation & Setup
+### Prerequisites
+Ensure you have the following installed:
+- **Node.js** (v16+)
+- **Git**
+- **MongoDB** (or use a cloud database like MongoDB Atlas)
 
-### `npm test`
+### Steps to Run Locally
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/YourUsername/DOCTORCLINIC-WEBSITE.git
+   cd DOCTORCLINIC-WEBSITE
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
 
-### `npm run build`
+3. **Configure environment variables**
+   - Create a `.env` file in the root directory
+   - Add the following details:
+     ```env
+     MONGO_URI=your_mongo_database_uri
+     PORT=5000
+     JWT_SECRET=your_secret_key
+     ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Run the application**
+   ```sh
+   npm start
+   ```
+   The server will run at `http://localhost:5000`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Folder Structure
+```
+DOCTORCLINIC-WEBSITE/
+│-- src/
+│   │-- Components/
+│   │   │-- Nav/
+│   │   │   │-- Navbar.js
+│   │   │   │-- Nav.css
+│   │-- Pages/
+│   │   │-- Home.js
+│   │   │-- Doctors.js
+│   │-- App.js
+│   │-- index.js
+│-- public/
+│-- package.json
+│-- README.md
+│-- .gitignore
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
+1. **Build the project**
+   ```sh
+   npm run build
+   ```
+2. **Deploy on Vercel or Heroku**
+   ```sh
+   vercel deploy
+   ```
 
-### `npm run eject`
+## Contribution Guidelines
+1. Fork the repository
+2. Create a feature branch (`feature-name`)
+3. Commit your changes (`git commit -m "Added new feature"`)
+4. Push to your branch (`git push origin feature-name`)
+5. Open a Pull Request
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
+This project is licensed under the **MIT License**.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
+### Contact
+For inquiries and collaboration, reach out via ....
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
