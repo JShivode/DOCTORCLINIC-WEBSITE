@@ -13,6 +13,11 @@ nav .navbar-nav a{
     letter-spacing: 1px;
     margin-right: 10px;
     font-size: 16px;
+    transition: .3s ease all;
+}
+nav .navbar-nav a:hover ,
+nav .navbar-nav a:focus {
+    color:var(--grey-color) !important
 }
 nav .navbar-nav .active{
     color: var(--grey-color) !important;
@@ -41,3 +46,28 @@ nav .navbar-nav button span{
     line-height: 40px;
     margin-left: 15px;
 }
+.navbar-nav .dropdown-menu{
+    position: static;
+    background-color: white;
+    border: 1px solid white;
+}
+.navbar-nav .dropdown-menu a{
+    color: #444;
+    font-size: 14px;
+    line-height: 30px !important;
+    position: relative;
+}
+.navbar-nav .dropdown-menu a:hover{
+    color: var(--grey-color) !important;
+}
+/* .navbar-nav .dropdown-menu li::before{
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: -5px;
+    left: 0;
+    width: 10px;
+    height: 4px;
+    background-color: var(--main-color);
+    color: var(--main-color);
+} */
