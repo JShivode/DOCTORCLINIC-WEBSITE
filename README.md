@@ -1,6 +1,7 @@
 # DocOnCall - Healthcare Website
 
-![DocOnCall Logo](![logo](https://github.com/user-attachments/assets/755b69d9-6f3c-4535-bc46-70d755abe1da))
+![DocOnCall Logo](assets/images/logo.png)
+
 
 ## Overview
 **DocOnCall** is a healthcare web platform designed to provide medical consultation and appointment scheduling services. The project includes a user-friendly interface, seamless navigation, and integration with various medical data sources.
