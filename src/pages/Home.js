@@ -1,5 +1,8 @@
 import React from "react";
 import headerimg from '../Assets/doc7.png';
+import './Home.css';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faSquare} from '@fortawesome/free-solid-svg-icons'
 
 
 const Home = ()=>{
@@ -7,13 +10,17 @@ const Home = ()=>{
         <header>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-8 col-lg-8'>
+                    <div className='col-md-6 col-lg-6'>
                         <h5>Expert Care, Anytime, Anywhere.</h5>
                         <h2>Protect Your Health and Take Care of Your Well-being</h2>
                         <button><a href='#'>Read More</a></button>
+                        <span>+</span>
                     </div>
-                    <div className='col-lg-4 col-md-4'>
-                        <img src={headerimg}/>
+                    <div className='col-lg-6 col-md-6'>
+                        <div classame='header-box'>
+                             <img src={headerimg}/>
+                             <FontAwesomeIcon icon={faSquare}/>
+                        </div>   
                     </div>
                 </div>
             </div>

@@ -22,6 +22,9 @@ nav .navbar-nav a:focus {
 nav .navbar-nav .active{
     color: var(--grey-color) !important;
 }
+nav .navbar-nav svg.phone{
+    margin-right: 8px;
+}
 nav .navbar-nav button{
     background-color: var(--main-color);
     border: 1px solid var(--main-color);

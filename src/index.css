@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: "Noto Serif", serif;
-  background-color: dimgrey !important;
+  background-color: white;
 }
 
 html{
@@ -12,6 +12,7 @@ html{
 :root{
   --main-color :#4682B4;
   --grey-color : #708090;
+  --btn-color: #565acf;
 }
 
 

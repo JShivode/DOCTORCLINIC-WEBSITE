@@ -2,6 +2,9 @@ import React from "react"
 import {Navbar , Container , NavDropdown , Collapse , Nav} from 'react-bootstrap';
 import './Nav.css';
 import logo from '../../Assets/logo.png';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faPhone, faSearch} from '@fortawesome/free-solid-svg-icons'
+
 
 const Navbars = ()=>{
     return(
@@ -31,8 +34,10 @@ const Navbars = ()=>{
                 <NavDropdown.Item href="#action/3.1">Blog Details</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link>Contact us</Nav.Link>
-              <Nav.Link>search</Nav.Link>
-              <Nav.Link>icon + 123456789</Nav.Link>
+              <Nav.Link><FontAwesomeIcon icon={faSearch}/></Nav.Link>
+              <Nav.Link>
+              <FontAwesomeIcon icon={faPhone} className="phone"/>
+                icon + 123456789</Nav.Link>
               <Nav.Link>
                 <button>contact us <span> > </span></button>
               </Nav.Link>
