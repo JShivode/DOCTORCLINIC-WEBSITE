@@ -1,4 +1,5 @@
 import React from "react";
+import './Footer.css';
 import footerlogo from '../../Assets/logo.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -13,16 +14,18 @@ const Footer = ()=>{
             <div className="container">
                 <div className="row">
                     <div className="col-md-3 col-sm-6">
-                        <img src={footerlogo}/>
+                        <img src={footerlogo} className="footerlogo"/>
                         <p>Our commitment at DocOnCall is to provide accessible,
                          high-quality healthcare services. 
                          We strive to support your health needs with expert care, anytime and anywhere.</p>
-                        <div className="footer-icon">
-                            <FontAwesomeIcon icon={faPhone}/>
-                        </div>
-                        <div className="footer-text">
-                            <h6>Contact Us</h6>
-                            <h4>+01 123 456 7890</h4>
+                        <div className="footer-contact">
+                            <div className="footer-icon">
+                                <FontAwesomeIcon icon={faPhone}/>
+                            </div>
+                            <div className="footer-text">
+                                <h6>Contact Us</h6>
+                                <h4>+01 123 456 7890</h4>
+                            </div>    
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
@@ -52,7 +55,7 @@ const Footer = ()=>{
                     <div className="col-md-3 col-sm-6">
                         <h2>Subscribe</h2>
                         <form>
-                            <input type="email"/>
+                            <input type="email" placeholder="Enter Email"/>
                             <button type="submit">Subscribe now</button>
                         </form>
                         <ul className="social">
@@ -60,6 +63,15 @@ const Footer = ()=>{
                             <li><a href="#"><img src={facebook}/></a></li>
                             <li><a href="#"><img src={linkedin}/></a></li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="footer-bottom">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12 col-md-12"> 
+                            <span>© 2025 Developed by Jode Shibli | All rights reserved</span>
+                        </div>
                     </div>
                 </div>
             </div>
