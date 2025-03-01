@@ -3,7 +3,7 @@ import {Navbar , Container , NavDropdown , Collapse , Nav} from 'react-bootstrap
 import './Nav.css';
 import logo from '../../Assets/logo.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faPhone, faSearch} from '@fortawesome/free-solid-svg-icons'
+import {faArrowLeft, faPhone, faSearch} from '@fortawesome/free-solid-svg-icons'
 
 
 const Navbars = ()=>{
@@ -39,7 +39,7 @@ const Navbars = ()=>{
               <FontAwesomeIcon icon={faPhone} className="phone"/>
                 icon + 123456789</Nav.Link>
               <Nav.Link>
-                <button>contact us <span> > </span></button>
+                <button>contact us <span> <FontAwesomeIcon icon={faArrowLeft}/> </span></button>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
