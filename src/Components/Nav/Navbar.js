@@ -4,6 +4,7 @@ import './Nav.css';
 import logo from '../../Assets/logo.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faArrowLeft, faPhone, faSearch} from '@fortawesome/free-solid-svg-icons'
+import {Link} from "react-router-dom";
 
 
 const Navbars = ()=>{
@@ -16,7 +17,7 @@ const Navbars = ()=>{
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav"> 
             <Nav className="me-auto">
-              <Nav.Link className="active">Home</Nav.Link>
+              <Link to="/home" className="active">Home</Link>
               <NavDropdown title="Pages" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">About Us</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.1">Our Team</NavDropdown.Item>
@@ -33,7 +34,7 @@ const Navbars = ()=>{
                 <NavDropdown.Item href="#action/3.1">Blogs</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.1">Blog Details</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link>Contact us</Nav.Link>
+              <Link to="/contact">Contact us</Link>
               <Nav.Link><FontAwesomeIcon icon={faSearch}/></Nav.Link>
               <Nav.Link>
               <FontAwesomeIcon icon={faPhone} className="phone"/>
