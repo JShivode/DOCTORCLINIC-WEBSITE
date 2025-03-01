@@ -1,0 +1,11 @@
+.banner{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 25px 0px;
+    margin-top: 0;
+    background-color: #d4afd9;
+    background-image: linear-gradient(0deg, #d4afd9 0%, #91d8e9 100%);
+
+}
