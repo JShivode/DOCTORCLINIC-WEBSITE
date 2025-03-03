@@ -11,8 +11,8 @@ const Navbars = ()=>{
     return(
         <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand>
-            <img src={logo} title="logo" />
+          <Navbar.Brand className="navbar-brand">
+            <img src={logo} alt="DocOnCall Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav"> 

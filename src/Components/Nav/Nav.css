@@ -3,9 +3,23 @@ nav{
     width: 100%;
     height: auto;
     border-radius: 0px !important;
+    padding: 5px 15px ;
+    display: flex;
+    align-items: center;
+    /*justify-content: flex-start; */
+}
+nav .navbar-brand img {
+    max-height: 120px; 
+    width: auto;
+    object-fit: contain;
+    display: block;
+    padding: 0px;
+    margin: 0px;
 }
 nav .navbar-nav{
-    margin-top: 12px;
+    display: flex;
+    align-items: center; 
+    margin-top: 0;  
 }
 nav .navbar-nav a{
     color: var(--main-color);
@@ -13,7 +27,8 @@ nav .navbar-nav a{
     letter-spacing: 1px;
     margin-right: 10px;
     font-size: 16px;
-    transition: .3s ease all;
+    transition: .3s ease all; 
+    padding: 8px 12px; 
 }
 nav .navbar-nav a:hover ,
 nav .navbar-nav a:focus {
@@ -33,12 +48,14 @@ nav .navbar-nav button{
     color: white;
     text-transform: uppercase;
     font-size: 15px;
-    margin-top: -10px;
+    margin-top: 0px;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: .3s ease-in-out;
+    transition: .3s ease-in-out; 
+    padding: 8px 16px;
+
 }
 nav .navbar-nav button span{
     background-color: white;
@@ -48,7 +65,10 @@ nav .navbar-nav button span{
     height: 40px;
     text-align: center;
     line-height: 40px;
-    margin-left: 15px;
+    margin-left: 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 nav .navbar-nav button:hover{
     background-color: rgb(66, 66, 175);
@@ -74,17 +94,6 @@ nav .navbar-nav button:hover{
     border: 1px solid var(--grey-color);
     border-radius: 0px;
 }
-/* .navbar-nav .dropdown-menu li::before{
-    position: absolute;
-    content: "";
-    display: block;
-    bottom: -5px;
-    left: 0;
-    width: 10px;
-    height: 4px;
-    background-color: var(--main-color);
-    color: var(--main-color);
-} */
 @media only screen and (max-width : 992px){
     nav .navbar-nav .dropdown-menu{
        width: 100%;
