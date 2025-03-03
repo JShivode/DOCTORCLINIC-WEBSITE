@@ -71,7 +71,7 @@ nav .navbar-nav button span{
     justify-content: center;
 }
 nav .navbar-nav button:hover{
-    background-color: rgb(66, 66, 175);
+    background-color: rgb(12, 126, 157);
     border: 1px solid rgb(66, 66, 175);
 }
 .navbar-nav .dropdown-menu{
@@ -80,7 +80,7 @@ nav .navbar-nav button:hover{
     border: 1px solid white;
 }
 .navbar-nav .dropdown-menu a{
-    color: #444;
+    color: rgb(12, 126, 157);
     font-size: 14px;
     line-height: 30px !important;
     position: relative;
