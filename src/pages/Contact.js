@@ -3,6 +3,7 @@ import Banner from "../Components/Banner/Banner";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMap, faEnvelope, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import './Contact.css';
+import FormContact from '../pages/FormContact';
 
 const Contact =()=>{
     return(
@@ -12,27 +13,7 @@ const Contact =()=>{
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-6">
-                            <form>
-                                <div className="form-control">
-                                    <input placeholder="Your Name"/>
-                                </div>
-                                <div className="form-control">
-                                    <input placeholder="Your Email"/>
-                                </div>
-                                <div className="form-control">
-                                    <input placeholder="Phone Number"/>
-                                </div>
-                                <select>
-                                    <option>Select Department</option>
-                                    <option>One</option>
-                                    <option>Two</option>
-                                    <option>Three</option>
-                                </select>
-                                <div className="form-control">
-                                    <textarea placeholder="Message"></textarea>
-                                </div>
-                                <button>Submit</button>
-                            </form>
+                            <FormContact/>
                         </div>
                         <div className="col-lg-6 col-md-6">
                             <div className="side">
