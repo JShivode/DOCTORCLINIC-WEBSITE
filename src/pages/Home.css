@@ -1,14 +1,23 @@
 header{
     margin-top: 0px;
-    background-color: #ddd;
-}
+    background-color: #ffffff;
+    background-image: linear-gradient(160deg, #ffffff 0%, #5dd2d2 100%);
+
+    /*margin-top: 0px;
+    background-image: url('../Assets/background.jpg');
+    background-size: cover; 
+    background-position: center; */
+}  
+
+
+
 header .row h5{
-    color: var(--btn-color);
-    font-size: 20px;
+    color:  rgb(33, 164, 200);
+    font-size: 25px;
     margin: 40px 0px 10px 0px;
 }
 header h2{
-    color: var(--main-color);
+    color: rgb(33, 164, 200);
     font-size: 44px;
     margin: 30px 0px;
     font-weight: bold;
@@ -16,7 +25,7 @@ header h2{
     word-spacing: 2px;
 }
 header button{
-    background-color: var(--grey-color) !important;
+    background-color:  rgb(12, 126, 157) !important;
     width: 200px;
     height: 60px;
     border: 1px solid var(--grey-color) !important;
@@ -35,17 +44,17 @@ header button:hover a{
 header button:hover{
     opacity: .6;
 }
-header span{
+/* header span{
     display: block;
     font-size: 100px;
-    color: white;
+    color: #565acf;
     -webkit-text-stroke: 2px rgb(30, 30, 81);
     -moz-text-stroke: 2px rgb(30, 30, 81);
     -o-text-stroke: 2px rgb(30, 30, 81);
     -moz-animation: mover 1s infinite alternate;
     -webkit-animation: mover 1s infinite alternate;
     -o-animation: mover 1s infinite alternate;
-}
+} */
 header .header-box{
     position: relative;
     max-width: 100%;
@@ -93,7 +102,7 @@ header img{
         transform: translateY(-10px);
     }
 }
-header svg{
+/* header svg{
     color: var(--btn-color) ;
     font-size:70px;
     position: absolute;
@@ -103,4 +112,4 @@ header svg{
     -moz-animation: mover 1s infinite alternate;
     -webkit-animation: mover 1s infinite alternate;
     -o-animation: mover 1s infinite alternate;
-}
+} */
