@@ -30,7 +30,6 @@ const Navbars = ()=>{
                     <Link to="/services" className="dropdown-item">View All Services</Link>
                     <Link to="/services/dental" className="dropdown-item">Dental Care</Link>
                     <Link to="/services/cardiology" className="dropdown-item">Cardiology</Link>
-                    <Link to="/services/massage" className="dropdown-item">Massage Therapy</Link>
               </NavDropdown>
               <NavDropdown title="Blog" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Blogs</NavDropdown.Item>

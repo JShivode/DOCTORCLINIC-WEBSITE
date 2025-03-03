@@ -1,6 +1,8 @@
 import React from "react";
 import './Services.css'; // Make sure to link the CSS file
 import Banner from "../Components/Banner/Banner";
+import dentalImage from '../Assets/dental.jpg'; // Ensure the path matches the location of your images
+import cardiologyImage from '../Assets/cardiology.jpg';
 
 const Services = () => {
     return (
@@ -9,12 +11,19 @@ const Services = () => {
             <section className="service-section">
                 <div className="container">
                     <div className="row">
-                        {/* Example of a single service */}
+                        {/* Dental Care */}
                         <div className="col-md-4 service-item">
+                            <img src={dentalImage} alt="Dental Care"/>
                             <h3>Dental Care</h3>
-                            <p>Provide comprehensive dental care services, from routine check-ups to advanced surgeries.</p>
+                            <p>Comprehensive dental care services from routine check-ups to advanced surgeries.</p>
                         </div>
-                        {/* Add more services as needed */}
+                        {/* Cardiology */}
+                        <div className="col-md-4 service-item">
+                            <img src={cardiologyImage} alt="Cardiology"/>
+                            <h3>Cardiology</h3>
+                            <p>Expert cardiovascular care with advanced diagnostic and treatment services.</p>
+                        </div>
+                        {/* More services can be added here */}
                     </div>
                 </div>
             </section>
